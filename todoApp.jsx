@@ -6,7 +6,7 @@ function TodoApp() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setTasks([...tasks, task]); // add new task
+    setTasks([...tasks, task]); 
     setTask(""); 
   };
 
